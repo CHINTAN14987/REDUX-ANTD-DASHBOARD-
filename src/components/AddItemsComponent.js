@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Form, Input } from "antd";
-import { addItems, stateSet, additemStateAction } from "../actions";
+import { addItems, additemStateAction } from "../actions";
 import { useDispatch, useSelector } from "react-redux";
 import "./CSS/AddItemsComponent.css";
 
@@ -22,6 +22,7 @@ const AddItemsComponent = () => {
     disptach(addItems(formvalue));
     disptach(additemStateAction(false));
     console.log(formState);
+    console.log(addItemState);
   };
   return (
     <>
