@@ -1,0 +1,12 @@
+.Modal_Button {
+  position: absolute !important;
+  top: 10%;
+  left: 35%;
+  padding: 30px !important;
+  display: flex !important;
+  width: 20rem;
+  justify-content: center !important;
+  align-items: center;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}

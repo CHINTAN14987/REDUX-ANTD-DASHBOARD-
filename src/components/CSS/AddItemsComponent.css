@@ -1,0 +1,23 @@
+.AddItem_FormWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem !important;
+  margin-top: 1rem !important;
+}
+
+.AddItem_FormWrapper button {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #24a0ed;
+  color: #fff;
+  font-size: 20px;
+  font-family: poppins;
+  font-weight: 600;
+  border-radius: 10px;
+  border: transparent;
+}
+.AddItem_FormWrapper Label {
+  font-size: 15px !important;
+  font-family: poppins;
+}

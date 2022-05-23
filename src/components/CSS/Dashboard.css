@@ -1,0 +1,38 @@
+.main_Container {
+  position: relative;
+}
+
+.Click_Wrapper {
+  width: 200px;
+  height: 200px;
+  background-color: #ececec;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000a6;
+  line-height: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 2rem;
+}
+
+.dashboard_Heading_Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+
+.dashboard_Heading_Wrapper h3 {
+  font-family: poppins;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 25px;
+  font-size: 35px;
+  color: #070602;
+}
