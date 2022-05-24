@@ -29,7 +29,7 @@ const DashBoard = () => {
 
   const editHandler = (item) => {
     setmyModal(true);
-
+    console.log(state);
     setEditItem(item);
     dispatch(stateSet(false));
   };
